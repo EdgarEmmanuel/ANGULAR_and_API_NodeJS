@@ -1,0 +1,9 @@
+.navbar .navbar-brand img{
+    width:2rem;
+    border-radius:10px;
+}
+
+.navbar a {
+    color:white;
+    font-weight:bold;
+}

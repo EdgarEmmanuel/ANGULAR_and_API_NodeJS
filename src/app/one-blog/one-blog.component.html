@@ -1,0 +1,15 @@
+<div class="card mb-4 m-auto">
+    <img class="card-img-top" src="../../assets/{{blog.ImageUrl}}" 
+    style="height:20rem;" alt="Card image cap">
+    <div class="card-body">
+      <h2 class="card-title">{{blog.title}}</h2>
+      <p class="card-text">
+         {{blog.content}}
+    </p>
+      <a routerLink="/articles" class="btn btn-primary">Retour &crarr;</a>
+    </div>
+    <div class="card-footer text-muted">
+      {{blog.datePost}} by
+      <a>{{blog.author}}</a>
+    </div>
+  </div>

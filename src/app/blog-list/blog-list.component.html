@@ -1,0 +1,15 @@
+<div class="container" *ngFor="let blog of ARTICLES">
+
+    <div class="card mb-4 m-auto" style="width:30rem;">
+        <img class="card-img-top" src="../../assets/{{blog.ImageUrl}}" style="height:4rem;" alt="Card image cap">
+        <div class="card-body">
+          <h2 class="card-title">{{blog.title}}</h2>
+          <a routerLink={{blog.id}} class="btn btn-primary">Read More &rarr;</a>
+        </div>
+        <div class="card-footer text-muted">
+          {{blog.datePost}} by
+          <a>{{blog.author}}</a>
+        </div>
+      </div>
+
+</div>
